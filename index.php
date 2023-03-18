@@ -6,8 +6,8 @@
         <?php
         $array = array(10, 20, 15, 17, 24, 35);
         $result = 0;
-        foreach ($array as $elem) {
-            $result = $result + $elem;
+        for ($i=0;$i<=5;$i++) {
+            $result = $result + $array[$i];
         }
         echo $result;
         ?>
